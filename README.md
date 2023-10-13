@@ -13,4 +13,4 @@ Please note: The version of `madhat2.py` currently present on this repository co
 [Optimal Weights](https://github.com/MADHATdm/MADHATv2/wiki/Optimal-Weights)  
 [Output Formatting](https://github.com/MADHATdm/MADHATv2/wiki/Output-Format)  
 [Required Libraries](https://github.com/MADHATdm/MADHATv2/wiki/Required-Libraries)  
-[Running MADHAT](https://github.com/MADHATdm/MADHATv2/wiki/Running-MADHAT)
+[Running MADHAT 2.0](https://github.com/MADHATdm/MADHATv2/wiki/Running-MADHAT-2.0)
