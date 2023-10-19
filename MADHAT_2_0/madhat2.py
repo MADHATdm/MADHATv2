@@ -22,11 +22,11 @@ P_sig_ij_tol_denom = 1e4
 P_bar_zero_out_threshold_denom = 1e4
 energy_fraction_zero_out_threshold_denom = 1e4
 
-#filepaths
-model_filepath = "Input/dmbb.dat"
-set_filepath = "Input/set0.dat"
-NOBS_filepath = "PMFdata/nobs8bpd.dat"
-pmf_data_filepath = "PMFdata/pmf8bpd.dat"
+#filenames
+model_filename = "Input/dmbb.dat"
+set_filename = "Input/set0.dat"
+NOBS_filename = "PMFdata/nobs8bpd.dat"
+pmf_data_filename = "PMFdata/pmf8bpd.dat"
 
 
 from scipy.stats import poisson
@@ -37,7 +37,7 @@ import os
 energy_fractions = np.array([1])
 energy_bin_number = energy_fractions.size
 
-with open(model_filepath, "r") as model_file:
+with open(model_filename, "r") as model_file:
     model_file_line = "#"
     while model_file_line.startswith("#"):
         model_file_line = model_file.readline()
@@ -59,7 +59,7 @@ Phi_PP_central_for_m = np.zeros(mass_number)
 Phi_PP_lower_for_m = np.zeros(mass_number)
 Phi_PP_upper_for_m = np.zeros(mass_number)
 
-with open(set_filepath, "r") as set_file:
+with open(set_filename, "r") as set_file:
     set_file_line = "#"
     while set_file_line.startswith("#"):
         set_file_line = set_file.readline()
@@ -77,7 +77,7 @@ with open(set_filepath, "r") as set_file:
         J_red_uncert_plus_i[i] = set_file_lines_minus_header[i].split()[2]
         J_red_uncert_minus_i[i] = set_file_lines_minus_header[i].split()[3]
 
-with open(NOBS_filepath, "r") as NOBS_file:
+with open(NOBS_filename, "r") as NOBS_file:
     NOBS_file_line = "#"
     while NOBS_file_line.startswith("#"):
         NOBS_file_line = NOBS_file.readline()
@@ -90,7 +90,7 @@ with open(NOBS_filepath, "r") as NOBS_file:
 J_i_central = 10 ** J_red_i
 J_i_bigger = 10 ** (J_red_i + J_red_uncert_plus_i)
 J_i_smaller = 10 ** (J_red_i - J_red_uncert_minus_i)
-with open(pmf_data_filepath, "r") as pmf_data_file:
+with open(pmf_data_filename, "r") as pmf_data_file:
     pmf_data_file_line = "#"
     while pmf_data_file_line.startswith("#"):
         pmf_data_file_line = pmf_data_file.readline()
@@ -360,10 +360,10 @@ minus_dsigmav = 8*np.pi*(masses**2)*minus_dPhiPP/integrated_energy_spectrum_vals
 
 output_data = np.column_stack((masses, integrated_energy_spectrum_vals, betas, N_bounds, Phi_PP_central_for_m, plus_dPhiPP, minus_dPhiPP, sigmav, plus_dsigmav, minus_dsigmav))
 
-with open(set_filepath, "r") as set_file:
+with open(set_filename, "r") as set_file:
     set_file_whole = set_file.readlines()
 
-output_filename_besides_beta_target_and_ext = os.path.splitext(os.path.basename(model_filepath))[0] + os.path.splitext(os.path.basename(set_filepath))[0]
+output_filename_besides_beta_target_and_ext = os.path.splitext(os.path.basename(model_filename))[0] + os.path.splitext(os.path.basename(set_filename))[0]
 np.savetxt(f'Output/{output_filename_besides_beta_target_and_ext}_{beta_target}.out', output_data, fmt = '%.15g', delimiter = '\t', header = "".join(set_file_whole) + f"""
 #####################################################################################################################################################################
 # Fermi_Pass8R3_239557417_681169985
