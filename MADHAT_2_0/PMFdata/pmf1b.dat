@@ -1,6 +1,6 @@
 ############################################################
 # MADHAT (Model-Agnostic Dark Halo Analysis Tool) Fermi PMF
-# Ref: Atwood et al. [arXiv:0902.1089]; P. Bruel et al. [arXiv:1810.11394]; S. Abdollahi et al. [Fermi-LAT] [arXiv:2201.11184]; J. Ballet et al. [Fermi-LAT] [arXiv:2307.12546]
+# Ref: Atwood et al. [Fermi-LAT] [arXiv:0902.1089]; P. Bruel et al. [Fermi-LAT] [arXiv:1810.11394]; S. Abdollahi et al. [Fermi-LAT] [arXiv:2201.11184]; J. Ballet et al. [Fermi-LAT] [arXiv:2307.12546]
 #
 # Column 1: number of photons, N
 # Columns 2-93: PMF value for N photons for dwarfs with ID# 1-92
