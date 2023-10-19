@@ -1,7 +1,7 @@
 ############################################################
 # MADHAT (Model-Agnostic Dark Halo Analysis Tool)
 # Dark Matter Model File: dmboxb.dat
-# Ref: K. R. Dienes & B. Thomas [arXiv:1107.0721]; K. K. Boddy, K. R. Dienes, D. Kim, J. Kumar, J. C. Park, & B. Thomas [arXiv:1609.09104]
+# Ref: K. K. Boddy, J. Kumar, D. Marfatia, & P. Sandick [arXiv:1802.03826]
 #
 # Column 1: mass - DM mass in GeV
 # Column 2: spectrum - photon energy spectrum integrated from 1 to 100 GeV
