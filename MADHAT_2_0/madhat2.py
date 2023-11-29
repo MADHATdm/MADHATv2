@@ -22,12 +22,16 @@ P_sig_ij_tol_denom = 1e4
 P_bar_zero_out_threshold_denom = 1e4
 energy_fraction_zero_out_threshold_denom = 1e4
 
-#filenames
+#model and set filenames
 model_filename = "Input/dmbb.dat"
 set_filename = "Input/set0.dat"
-NOBS_filename = "PMFdata/nobs8bpd.dat"
-pmf_data_filename = "PMFdata/pmf8bpd.dat"
 
+
+NOBS_filename = "PMFdata/nobs1b.dat"
+pmf_data_filename = "PMFdata/pmf1b.dat"
+if binning == 1:
+    NOBS_filename = "PMFdata/nobs8bpd.dat"
+    pmf_data_filename = "PMFdata/pmf8bpd.dat"
 
 from scipy.stats import poisson
 import scipy.signal as SciSig
