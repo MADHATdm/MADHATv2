@@ -10,5 +10,5 @@ MADHAT v2 places bounds on the dark matter annihilation cross section through a 
 [Input Files and Formatting](https://github.com/MADHATdm/MADHATv2/wiki/Input-Files-and-Formatting)  
 [Optimal Weights](https://github.com/MADHATdm/MADHATv2/wiki/Optimal-Weights)  
 [Output Formatting](https://github.com/MADHATdm/MADHATv2/wiki/Output-Formatting)  
-[Required Libraries](https://github.com/MADHATdm/MADHATv2/wiki/Required-Libraries)  
+[Required Language and Libraries](https://github.com/MADHATdm/MADHATv2/wiki/Required-Language-and-Libraries)  
 [Running MADHAT 2.0](https://github.com/MADHATdm/MADHATv2/wiki/Running-MADHAT-2.0)
