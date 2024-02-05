@@ -1,4 +1,4 @@
-![MADHAT v2 logo](https://github.com/MADHATdm/MADHATv2/blob/main/MADHATv2logo_smallest.png)
+![MADHATv2 logo](https://github.com/MADHATdm/MADHATv2/blob/main/MADHATv2logo_smallest.png)
 # MADHATv2
 Model-Agnostic Dark Halo Analysis Tool V2
 
@@ -11,4 +11,4 @@ MADHATv2 places bounds on the dark matter annihilation cross section through a F
 [Optimal Weights](https://github.com/MADHATdm/MADHATv2/wiki/Optimal-Weights)  
 [Output Formatting](https://github.com/MADHATdm/MADHATv2/wiki/Output-Formatting)  
 [Required Language and Libraries](https://github.com/MADHATdm/MADHATv2/wiki/Required-Language-and-Libraries)  
-[Running MADHATv2](https://github.com/MADHATdm/MADHATv2/wiki/Running-MADHAT-v2)
+[Running MADHATv2](https://github.com/MADHATdm/MADHATv2/wiki/Running-MADHATv2)
