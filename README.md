@@ -1,6 +1,6 @@
 ![MADHATv2 logo](https://github.com/MADHATdm/MADHATv2/blob/main/MADHATv2logo_smallest.png)
 # MADHATv2
-Model-Agnostic Dark Halo Analysis Tool V2
+Model-Agnostic Dark Halo Analysis Tool v2
 
 MADHATv2 places bounds on the dark matter annihilation cross section through a Fermi-LAT-data-based, model-independent analysis of dark matter annihilation into gamma rays within dwarf galaxies/dwarf-like objects. The tool features improved sensitivity to dark matter models relative to version 1.0 via photon weighting by dwarf galaxy of origin and energy.
 
