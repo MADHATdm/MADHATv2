@@ -3,6 +3,10 @@
 
 import numpy as np
 
+#model and set filenames
+model_filename = "Input/dmbb.dat"
+set_filename = "Input/set0.dat"
+
 #target beta and related
 beta_target = 0.95
 beta_tolerance = 0.001
@@ -21,10 +25,6 @@ bgd_prob_sum_tolerance = 1e-4
 P_sig_ij_tol_denom = 1e4
 P_bar_zero_out_threshold_denom = 1e4
 energy_fraction_zero_out_threshold_denom = 1e4
-
-#model and set filenames
-model_filename = "Input/dmbb.dat"
-set_filename = "Input/set0.dat"
 
 
 NOBS_filename = "PMFdata/nobs1b.dat"
