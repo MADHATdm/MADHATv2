@@ -3,7 +3,7 @@
 
 import numpy as np
 
-#model and set filenames
+#dark matter model and target set filenames
 model_filename = "Input/dmbb.dat"
 set_filename = "Input/set0.dat"
 
