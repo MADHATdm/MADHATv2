@@ -1,4 +1,4 @@
-![MADHATv2 logo](https://github.com/MADHATdm/MADHATv2/blob/main/MADHATv2logo_smallest.png)
+![MADHATv2 logo](https://github.com/MADHATdm/MADHATv2/blob/main/Logos/MADHATv2logo_smallest.png)
 # MADHATv2
 Model-Agnostic Dark Halo Analysis Tool v2
 
