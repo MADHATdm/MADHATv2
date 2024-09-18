@@ -10,10 +10,10 @@ If you use MADHAT, please cite the following papers:
 \[3\] K. Boddy, Z. Carter, J. Kumar, L. Rufino, P. Sandick, and N. Tapia-Arellano, https://arxiv.org/abs/2401.05327
 
 ## The [MADHATv2 Wiki](https://github.com/MADHATdm/MADHATv2/wiki) contains the following information:  
-[Dwarf ID Numbers](https://github.com/MADHATdm/MADHATv2/wiki/Dwarf-ID-Numbers)  
-[Energy Bins](https://github.com/MADHATdm/MADHATv2/wiki/Energy-Bins)  
-[Input Files and Formatting](https://github.com/MADHATdm/MADHATv2/wiki/Input-Files-and-Formatting)  
-[Optimal Weights](https://github.com/MADHATdm/MADHATv2/wiki/Optimal-Weights)  
-[Output Formatting](https://github.com/MADHATdm/MADHATv2/wiki/Output-Formatting)  
-[Required Language and Libraries](https://github.com/MADHATdm/MADHATv2/wiki/Required-Language-and-Libraries)  
-[Running MADHATv2](https://github.com/MADHATdm/MADHATv2/wiki/Running-MADHATv2)
+[1) Required Language and Libraries](https://github.com/MADHATdm/MADHATv2/wiki/1\)-Required-Language-and-Libraries)  
+[2) Running MADHATv2](https://github.com/MADHATdm/MADHATv2/wiki/2\)-Running-MADHATv2)  
+[3) Input Files and Formatting](https://github.com/MADHATdm/MADHATv2/wiki/3\)-Input-Files-and-Formatting)  
+[4) Output Formatting](https://github.com/MADHATdm/MADHATv2/wiki/4\)-Output-Formatting)  
+[5) Dwarf ID Numbers](https://github.com/MADHATdm/MADHATv2/wiki/5\)-Dwarf-ID-Numbers)  
+[6) Optimal Weights](https://github.com/MADHATdm/MADHATv2/wiki/6\)-Optimal-Weights)  
+[7) Energy Bins](https://github.com/MADHATdm/MADHATv2/wiki/7\)-Energy-Bins)
