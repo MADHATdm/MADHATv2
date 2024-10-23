@@ -15,5 +15,5 @@ If you use MADHAT, please cite the following papers:
 [3) Input Files and Formatting](https://github.com/MADHATdm/MADHATv2/wiki/3\)-Input-Files-and-Formatting)  
 [4) Output Formatting](https://github.com/MADHATdm/MADHATv2/wiki/4\)-Output-Formatting)  
 [5) Dwarf ID Numbers](https://github.com/MADHATdm/MADHATv2/wiki/5\)-Dwarf-ID-Numbers)  
-[6) Optimal Weights](https://github.com/MADHATdm/MADHATv2/wiki/6\)-Optimal-Weights)  
+[6) Target Weights](https://github.com/MADHATdm/MADHATv2/wiki/6\)-Target-Weights)  
 [7) Energy Bins](https://github.com/MADHATdm/MADHATv2/wiki/7\)-Energy-Bins)
