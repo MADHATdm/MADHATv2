@@ -7,7 +7,7 @@ MADHATv2 places bounds on the dark matter annihilation cross section through a F
 If you use MADHAT, please cite the following papers:  
 \[1\] K. Boddy, D. Kumar, D. Marfatia, and P. Sandick, Phys.Rev.D 97 (2018) no.9, 095031, https://arxiv.org/abs/1802.03826  
 \[2\] K. Boddy, S. Hill, J. Kumar, P. Sandick, and B. Shams Es Haghi, Comput.Phys.Commun. 261 (2021) 107815, https://arxiv.org/abs/1910.02890  
-\[3\] K. Boddy, Z. Carter, J. Kumar, L. Rufino, P. Sandick, and N. Tapia-Arellano, https://arxiv.org/abs/2401.05327
+\[3\] K. Boddy, Z. Carter, J. Kumar, L. Rufino, P. Sandick, and N. Tapia-Arellano, Phys.Rev.D 109 (2024) no.10, 10 https://arxiv.org/abs/2401.05327
 
 ## The [MADHATv2 Wiki](https://github.com/MADHATdm/MADHATv2/wiki) contains the following information:  
 [1) Required Language and Libraries](https://github.com/MADHATdm/MADHATv2/wiki/1\)-Required-Language-and-Libraries)  
