@@ -1,0 +1,35 @@
+# Byte-compiled files
+__pycache__/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Pytest
+.pytest_cache/
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs and scratch output
+*.log
+*.out
+
+# Generated data & plots
+Output/
+plots/
+journal/
+
+*.dat
+*.csv
+*.png
+
+# Unnecessary helper files
+jfactor.py
+plot.py
+merge_pmf.py
