@@ -1,6 +1,6 @@
 # MADHATdm Changelog
 
-## [2.1] – 2025-07-16
+## [2.1] – 2025-07-23
 
 ### Added
 - Improved logging: uses Python's `logging` module throughout, with log messages for progress, warnings, and errors.

@@ -12,7 +12,7 @@ import argparse
 import logging
 
 #default model and set files
-default_models = ['dmbb.dat'] #, 'dmmumu.dat','dmtautau.dat', 'dmww.dat']
+default_models = ['dmtest.dat'] #, 'dmmumu.dat','dmtautau.dat', 'dmww.dat']
 default_sets = ['set1.dat'] #, 'set0.dat', 'set1a.dat', 'set1b.dat', 'set1c.dat', 'set2.dat', 'set3.dat', 'set4.dat', 'set5.dat', 'set6.dat', 'set7.dat']
 formatted_output = False # can be set to True with the --formatted_output (or -f) flag, or changed here
 
@@ -469,7 +469,7 @@ def main(set_filename, model_filename, formatted_output=False):
                 logger.info(line)
                 print(line)
     else:
-        np.savetxt(f'Output/{output_filename_besides_beta_target_and_ext}_{beta_target}.out', output_data, fmt = '%.15g', delimiter = '\t', header=header)
+        np.savetxt(f'Output/{output_filename_besides_beta_target_and_ext}_{beta_target}.out', output_data, fmt = '%.15g', delimiter = '\t', header="".join(set_file_whole) + header)
         for row in output_data:
             line = output_fmt.format(
                 mass=row[0],
