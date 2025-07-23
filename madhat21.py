@@ -220,9 +220,7 @@ def main(set_filename, model_filename, formatted_output=False):
                 iteration += 1
                 
                 # Calculate the number of observed photons, using floor then sum to ensure integer counts
-                #N_O_bar = np.sum(np.floor(weights * N_O_ij)).astype(int)
-                N_O_bar = weights.ravel().dot(N_O_ij.ravel())
-                N_O_bar = np.floor(N_O_bar).astype(int)
+                N_O_bar = np.sum(np.floor(weights * N_O_ij)).astype(int)
 
                 # Check if N_O_bar is zero, if so, increase weights
                 if N_O_bar == 0:
